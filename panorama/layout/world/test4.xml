@@ -1,0 +1,23 @@
+<root>
+	<styles>
+        <include src="file://{resources}/styles/main.scss" />
+
+		<include src="file://{resources}/styles/world/test4.scss" />
+	</styles>
+	
+	<scripts>
+		<include src="file://{resources}/scripts/world/test4.ts" />
+	</scripts>
+
+	<WorldPanel class="test4 full" onload="Test4.Init()">
+		<Movie
+			id="test4-movie"
+			class="full"
+			src="file://{media}/sp_a5_credits.webm"
+			sound=""
+			controls="none"
+			repeat="true"
+			hittest="false"
+		/>
+	</WorldPanel>
+</root>

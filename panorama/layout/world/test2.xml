@@ -1,0 +1,17 @@
+<root>
+	<styles>
+        <include src="file://{resources}/styles/main.scss" />
+
+		<include src="file://{resources}/styles/world/test2.scss" />
+	</styles>
+	
+	<scripts>
+		<include src="file://{resources}/scripts/world/test2.js" />
+	</scripts>
+
+	<WorldPanel class="test2 full">
+        <Panel class="flow-down full" id="OurPanel">
+        	<Label class="full" text="Second Panel!" />
+        </Panel>
+	</WorldPanel>
+</root>

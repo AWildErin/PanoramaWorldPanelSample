@@ -1,0 +1,19 @@
+.test4 {
+    width: 100%;
+    height: 100%;
+
+    background-color: gray;
+
+	&__movie {
+		height: 1080px;
+		width: 100%;
+		min-width: 1920px;
+		overflow: noclip;
+	}
+
+	&__logo {
+		margin: 0px 20px;
+		height: 80%;
+		vertical-align: middle;
+	}
+}

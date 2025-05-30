@@ -1,0 +1,17 @@
+<root>
+	<styles>
+        <include src="file://{resources}/styles/main.scss" />
+	</styles>
+	
+	<WorldPanel class="full">
+		<Label text="Paorama UI!"/>
+        <Panel class="flow-down">
+        	<Label class="text-h1" text="text-h1" />
+			<Label class="text-h2" text="text-h2" />
+			<Label class="text-h3" text="text-h3" />
+			<Label class="text-h4" text="text-h4" />
+			<Label class="text-h5" text="text-h5" />
+			<Label class="text-h6" text="text-h6" />
+        </Panel>
+	</WorldPanel>
+</root>
